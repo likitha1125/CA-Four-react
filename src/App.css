@@ -110,8 +110,8 @@ button:hover{
     padding: 0;
   }
   .themeButton button img {
-    width: 60px; /* Adjust the width as needed */
-    height: 60px; /* Adjust the height as needed */
+    width: 60px; 
+    height: 60px; 
   }
   #ques {
     color: white;
