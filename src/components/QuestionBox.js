@@ -3,6 +3,7 @@ import questions from '../questions';
 import Result from './Result';
 import '../App.css';
 
+import img from '../assets/kalvium.png';
 import moonIcon from '../assets/moon.png';
 import sunIcon from '../assets/sun.png';
 
@@ -43,8 +44,11 @@ export default function QuestionBox() {
   }, [darkMode]);
 
   return (
+
     <div className='body'>
       <div className='Questionnav'>
+      <img className='kalvium' src={img} alt="" />
+
         <div className='themeButton'>
           <button
             style={{
