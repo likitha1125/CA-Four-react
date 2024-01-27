@@ -1,0 +1,124 @@
+/* CSS for questionBox Component */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+
+body{
+    text-align: center;
+    background-color: whitesmoke;
+    font-family:'Inter', sans-serif;
+    
+}
+
+.Questionnav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Questionnav button{
+    width: 10vh;
+    height: 5vh;
+    margin-top: 5vh;
+    border-radius: 7px;
+}
+.container {
+    background-color: #d1bde4;
+    color: white;
+    width: 150vh;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.options{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.options  button{
+    background-color: rgb(249, 225, 248);
+    font-size: 2.5vh;
+    padding: 0%;
+    width: 50vh;
+    height: 7vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5vh;
+    border-radius:7px;
+    border: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.highlight{
+    margin: 5vh;
+    margin-top: 7vh;
+}
+.highlight button{
+    margin: 1vh;
+    width: 25vh;
+    height: 5vh;
+    border-radius: 7px;
+    background-color: rgb(195, 121, 191);
+    color: white;
+    border: none;
+    font-family: cursive;
+
+}
+
+
+.ResultDiv{
+    background-color: #d1bde4;
+    color: white;
+    width: 100vh;
+    border-radius: 10px;    
+    margin-top: 120px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(112, 84, 122);
+    transition: 0.2s ease-in-out;
+    color: white;
+}
+.dark-mode {
+    color: white;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+    
+}
+.themebutton{
+    margin-top: 5vh;
+    
+}
+.ResultDiv button{
+  padding: 2vh;
+  margin: 2vh;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(216, 150, 214);
+  font-family: cursive;
+
+}
+.themeButton button {
+    border: none;
+    background: none;
+    padding: 0;
+  }
+  .themeButton button img {
+    width: 60px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+  }
+  #ques {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+    font-family:  cursive;
+  }
+  
